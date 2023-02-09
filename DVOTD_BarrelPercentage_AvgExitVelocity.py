@@ -10,7 +10,7 @@ import plotly_express as px
 import plotly.io as pio
 pio.renderers.default = "browser"
 
-df = pd.read_csv(r"C:\Users\Hunts2\OneDrive - AECOM\Documents\Data Science Projects\bbsavant20230209.csv")
+df = pd.read_csv(r"C:\Users\Hunts2\OneDrive - AECOM\Documents\Data Science Projects\Other Projects\2023-02-09\bbsavant20230209.csv")
 
 
 fig = px.scatter(df,
